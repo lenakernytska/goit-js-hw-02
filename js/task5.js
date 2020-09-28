@@ -1,3 +1,4 @@
+// вариант 1
 function checkForSpam(str) {
   "use strict";
   // Write code under this line
@@ -19,3 +20,24 @@ console.log(checkForSpam("JavaScript weekly newsletter")); // false
 
 console.log(checkForSpam("Get best sale offers now!")); // true
 console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
+
+// вариант 2
+// function checkForSpam(str) {
+//   "use strict";
+//   // Write code under this line
+
+//   let message = " ";
+//   message =
+//     str.toLowerCase().includes("spam") || str.toLowerCase().includes("sale")
+//       ? true
+//       : false;
+
+//   return message;
+// }
+
+// console.log(checkForSpam("Latest technology news")); // false
+
+// console.log(checkForSpam("JavaScript weekly newsletter")); // false
+
+// console.log(checkForSpam("Get best sale offers now!")); // true
+// console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
